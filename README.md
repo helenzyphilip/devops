@@ -3,6 +3,7 @@ Modul 300
 Installation
 -------------
 1.	Ubuntu Server Image herunterladen
+2.	
 2.	VM auf VirtualBox erstellen 
 3.	Beim Netzwerk unter NAT: Port 80 als Weiterleitung zu Port 8080 (Host) eintragen
 4.	installiere die Linux Server Umgebung
