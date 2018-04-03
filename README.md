@@ -148,4 +148,22 @@ a.	Daten in MySQL Datenbank schreiben:
  curl -v -X POST http://localhost/cgi-bin/restsql -d "poti=0.5&hall=0.1&light=0.8&temp=26"
 b.	Abfrage im Browser mittels: http://localhost:8080/cgi-bin/restsql
 
+### Firewall
+Eine Firewall (von englisch firewall ‚Brandwand‘ oder ‚Brandmauer‘) ist ein Sicherungssystem, das ein Rechnernetz oder einen einzelnen Computer vor unerwünschten Netzwerkzugriffen schützt und ist weiter gefasst auch ein Teilaspekt eines Sicherheitskonzepts.
+
+Jedes Firewall-Sicherungssystem basiert auf einer Softwarekomponente. Die Firewall-Software dient dazu, den Netzwerkzugriff zu beschränken, basierend auf Absender- oder Zieladresse und genutzten Diensten. Sie überwacht den durch die Firewall laufenden Datenverkehr und entscheidet anhand festgelegter Regeln, ob bestimmte Netzwerkpakete durchgelassen werden oder nicht. Auf diese Weise versucht sie, unerlaubte Netzwerkzugriffe zu unterbinden.
+
+| Befehle | 
+| ------ | 
+| netstat -tulpen| 
+| sudo apt-get install ufw | 
+| sudo ufw status
+sudo ufw enable| 
+sudo ufw disable| 
+| curl -f 192.168.55.101|
+curl -f 192.168.55.100:3306| 
+sudo ufw status numbered |
+sudo ufw delete 1|
+
+
 
