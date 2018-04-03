@@ -189,6 +189,7 @@ http://localhost:8080 eingibt.
 Firewall
 - curl -f 192.168.55.101
 - curl -f 192.168.55.100:3306 mit diesem befehl schaut man ob die verbindung funktioniert.
+- sudo ufw enabel diese Befehl zeigt ob die Firewall aktiv ist oder deaktiviert ist, falls sie aktiv ist werden mir die Regeln angezeigt.
 
 
 
