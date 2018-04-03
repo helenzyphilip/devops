@@ -4,6 +4,7 @@ Installation
 -------------
 1.	Ubuntu Server Image herunterladen
 2.	VM auf VirtualBox erstellen 
+3.	Testen in dem man VBoxManage list vms
 3.	Beim Netzwerk unter NAT: Port 80 als Weiterleitung zu Port 8080 (Host) eintragen
 4.	installiere die Linux Server Umgebung
 5.	Apache Server installieren mit sudo apt-get install apache2
@@ -160,10 +161,26 @@ Jedes Firewall-Sicherungssystem basiert auf einer Softwarekomponente. Die Firewa
 | sudo ufw status
 sudo ufw enable| 
 sudo ufw disable| 
-| curl -f 192.168.55.101|
-curl -f 192.168.55.100:3306| 
+| Test: curl -f 192.168.55.101|
+Test: curl -f 192.168.55.100:3306| 
 sudo ufw status numbered |
 sudo ufw delete 1|
+
+Test
+-------------
+
+VM: 
+-VBoxManage list vms
+
+GitHub: 
+-git pull
+-git status 
+
+Vagrant:
+-mkdir ubuntu
+-cd ubuntu
+-vagrant init ubuntu/xenial64
+-vagrant up --provider virtualbox
 
 
 
