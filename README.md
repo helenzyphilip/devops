@@ -170,17 +170,18 @@ Test
 -------------
 
 VM: 
-- VBoxManage list vms
+- VBoxManage list vms mit diesem Befehl konnte ich schauen was für VM erstellt wurden.
 
 GitHub: 
 - git pull
-- git status 
+- git status mit diesen Befehlen konnte man nachschauen ob alles im aktuellen Stand ist.
 
 Vagrant:
 - mkdir ubuntu
 - cd ubuntu
 - vagrant init ubuntu/xenial64
 - vagrant up --provider virtualbox
+
 
 
 
