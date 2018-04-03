@@ -170,17 +170,17 @@ Test
 -------------
 
 VM: 
--VBoxManage list vms
+- VBoxManage list vms
 
 GitHub: 
--git pull
--git status 
+- git pull
+- git status 
 
 Vagrant:
--mkdir ubuntu
--cd ubuntu
--vagrant init ubuntu/xenial64
--vagrant up --provider virtualbox
+- mkdir ubuntu
+- cd ubuntu
+- vagrant init ubuntu/xenial64
+- vagrant up --provider virtualbox
 
 
 
