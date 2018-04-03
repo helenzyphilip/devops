@@ -177,10 +177,21 @@ GitHub:
 - git status mit diesen Befehlen konnte man nachschauen ob alles im aktuellen Stand ist.
 
 Vagrant:
-- mkdir ubuntu
+- mkdir ubuntu mit diesem Befehl erstellt man ein ordner
 - cd ubuntu
-- vagrant init ubuntu/xenial64
-- vagrant up --provider virtualbox
+- vagrant init ubuntu/xenial64 
+- vagrant up --provider virtualbox mit diesen befehl erstellt man die vm
+
+Apache Server
+- Testen ob es funktioniert indem man Browsers lokal öffnet und
+http://localhost:8080 eingibt.
+
+Firewall
+- curl -f 192.168.55.101
+- curl -f 192.168.55.100:3306 mit diesem befehl schaut man ob die verbindung funktioniert.
+
+
+
 
 
 
